@@ -20,12 +20,15 @@ public class PlayerResourceComponent : ResourceComponent {
     float staminaRegenDelayIncr = .1f;
     float staminaRegenRate = .6f;
 
+    float startingHealth = 700f;
+    float startingStamina = 200f;
+
     public PlayerResourceComponent(Player _player, HudComponent _hud)
     {
         player = _player;
         hud = _hud;
-        maxStamina = 200f;
-        maxHealth = 700f;
+        maxStamina = startingStamina;
+        maxHealth = startingHealth;
         health = maxHealth;
         stamina = maxStamina;
     }
