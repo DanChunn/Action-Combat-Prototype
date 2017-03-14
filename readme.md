@@ -8,11 +8,11 @@ YouTube: https://youtu.be/Fobnf8yzSsU
 	   - Melee combat and rolling
 	   - Health and stamina system
 
-####Assets:
+#### Assets:
 * Character Model: https://www.assetstore.unity3d.com/en/#!/content/18705
 * Animations: https://www.assetstore.unity3d.com/en/#!/content/65284
 
-####Primary Technology used in this application:
+#### Primary Technology used in this application:
 * C#
 * Visual Studio
 * Unity
